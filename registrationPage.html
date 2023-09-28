@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WT_Assignment_1(5)</title>
+    <style>
+        body{
+            background-image: radial-gradient(red, orange, yellow);
+        }
+        table{
+            background-color: aqua;
+            border: red;
+        }
+    </style>
+</head>
+<body>
+    <table border="1"  align="center">
+    <form>
+        <tr><th colspan="2">Registration Page</th></tr>
+        <tr><td><label for="rID">Registration Id:</label></td> <td><input type="text"></td></tr>
+        <tr><td><label for="Uname">User Name:</label></td> <td><input type="text"></td></tr>
+        <tr><td><label for="Pass">Password:</label></td> <td><input type="password"></td></tr>
+        <tr><td><label for="fname">First Name:</label></td> <td><input type="text"></td></tr>
+        <tr><td><label for="lname">Last Name:</label></td> <td><input type="text"></td></tr>
+
+        <tr><td><label for="Gender">Gender:</label></td> 
+            <td><input type="radio" id="m" name="m" value="m"><label for="m">Male</label>
+                <input type="radio" id="f" name="m" value="f"><label for="f">Female</label></tr>
+            
+        <tr><td><label for="DOB">Date of Birth:</label></td>
+            <td><input type="date" id="DOB" name="DOB"></td></tr></tr>
+        
+        <tr><td><label for="add">Address:</label></td>
+            <td><textarea id="add" name="add" rows="2" cols="20"></textarea></td></tr>
+
+        <tr><td><label for="city">City:</label></td>
+            <td><select name="city" id="city">
+                    <option value="surat">Surat</option>
+                    <option value="visnagar">Visnagar</option>
+                    <option value="rajkot">Rajkot</option>
+            </select></td></tr>
+        
+        <tr><td><label for="state">State:</label></td>
+            <td><select name="state" id="state">
+                    <option value="gujarat">Gujarat</option>
+                    <option value="panjab">Panjab</option>
+                    <option value="delhi">Delhi</option>
+            </select></td></tr>
+        
+        <tr><td><label for="contry">Contry:</label></td>
+            <td><select name="contry" id="contry">
+                    <option value="india">India</option>
+                    <option value="uk">UK</option>
+                    <option value="usa">USA</option>
+            </select></td></tr>
+
+        <tr><td><label for="hobbies">Hobbies:</label></td> 
+            <td><input type="checkbox" id="r" name="r" value="r"><label for="r">Reading</label>
+                <input type="checkbox" id="w" name="w" value="w"><label for="w">Writing</label>
+                <input type="checkbox" id="s" name="s" value="s"><label for="s">Singing</label></tr>
+
+        <tr><td><label for="mobile">Mobile No:</label></td>
+            <td><input type="tel" id="mobile" name="mobile""></td></tr>
+
+        <tr><td><label for="f">Attach C.V.:</label></td>
+            <td><input type="file" id="f" name="f"></td></tr>
+
+        <tr><td colspan="2" align="center"><input type="submit"> <input type="reset"></td></tr>
+    </form>
+    </table>
+</body>
+</html>
