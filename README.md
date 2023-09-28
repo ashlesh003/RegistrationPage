@@ -1,6 +1,6 @@
 # RegistrationPage
-Registration web Page using HTML and CSS.
-This Registration Page contains,.....<br>
+Registration web Page using HTML and CSS. <br>
+This Registration Page contains,..... <br>
 <ol>
   Registration Id: <br>
   User Name: <br>
